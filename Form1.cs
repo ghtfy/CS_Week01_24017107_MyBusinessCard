@@ -1,10 +1,12 @@
 using static System.Windows.Forms.VisualStyles.VisualStyleElement.Rebar;
 using System.Diagnostics;
-//커밋테스트
+
 namespace WinFormsApp3
 {
     public partial class Form1 : Form
     {
+        private bool change = false;
+        private Image alternateImage = null;
         public Form1()
         {
             InitializeComponent();
@@ -46,14 +48,32 @@ namespace WinFormsApp3
             Process.Start(psi);
         }
 
-        public Form1()
+        private void button3_Click(object sender, EventArgs e)   //이미지 변경 버튼 작업 중
         {
-            InitializeComponent();
+           
+            if (pictureBox1.Tag == null)
+                pictureBox1.Tag = pictureBox1.Image;
 
-            // PictureBox 기본 설정
-            pictureBox1.SizeMode = PictureBoxSizeMode.StretchImage;
-            pictureBox1.Image = (Image)this.Resources.GetObject("son_hm.jpg");
+            // Load images from Form1.resx keys: "pictureBox2.image" and "pictureBox3.image"
+            var rm = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
+            Image imgA = rm.GetObject("pictureBox2.image") as Image;
+            Image imgB = rm.GetObject("pictureBox3.image") as Image;
 
-            // 버튼 이벤트 연결 확인
-            button3.Click += button3_Click;
+            
+            if (imgA == null) imgA = pictureBox1.Tag as Image ?? SystemIcons.Information.ToBitmap();
+            if (imgB == null) imgB = SystemIcons.Information.ToBitmap();
+
+            // Toggle between imgA and imgB
+            if (change)
+            {
+                pictureBox1.Image = imgA;
+            }
+            else
+            {
+                pictureBox1.Image = imgB;
+            }
+
+            change = !change;
         }
+    }
+}
