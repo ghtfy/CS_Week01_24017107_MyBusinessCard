@@ -36,6 +36,7 @@
             pictureBox1 = new PictureBox();
             button1 = new Button();
             button2 = new Button();
+            button3 = new Button();
             ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
             SuspendLayout();
             // 
@@ -43,7 +44,7 @@
             // 
             label4.AutoSize = true;
             label4.Font = new Font("바탕", 16.2F, FontStyle.Bold | FontStyle.Italic, GraphicsUnit.Point, 129);
-            label4.Location = new Point(454, 276);
+            label4.Location = new Point(454, 261);
             label4.Margin = new Padding(4, 0, 4, 0);
             label4.Name = "label4";
             label4.Size = new Size(318, 28);
@@ -73,7 +74,7 @@
             label2.AutoSize = true;
             label2.Font = new Font("한컴 울주 천전리 각석체", 14.25F, FontStyle.Regular, GraphicsUnit.Point, 0);
             label2.ForeColor = SystemColors.ControlDarkDark;
-            label2.Location = new Point(453, 199);
+            label2.Location = new Point(453, 194);
             label2.Margin = new Padding(4, 0, 4, 0);
             label2.Name = "label2";
             label2.Size = new Size(246, 27);
@@ -121,7 +122,7 @@
             button2.FlatStyle = FlatStyle.Popup;
             button2.Font = new Font("맑은 고딕", 13.8F, FontStyle.Bold, GraphicsUnit.Point, 129);
             button2.ForeColor = SystemColors.MenuHighlight;
-            button2.Location = new Point(707, 107);
+            button2.Location = new Point(740, 111);
             button2.Name = "button2";
             button2.Size = new Size(167, 46);
             button2.TabIndex = 6;
@@ -129,11 +130,25 @@
             button2.UseVisualStyleBackColor = true;
             button2.Click += button2_Click;
             // 
+            // button3
+            // 
+            button3.BackColor = SystemColors.Info;
+            button3.Font = new Font("맑은 고딕", 13.8F, FontStyle.Bold | FontStyle.Italic, GraphicsUnit.Point, 129);
+            button3.ForeColor = SystemColors.Highlight;
+            button3.Location = new Point(112, 448);
+            button3.Name = "button3";
+            button3.Size = new Size(240, 71);
+            button3.TabIndex = 7;
+            button3.Text = "사진 변경";
+            button3.UseVisualStyleBackColor = false;
+            button3.Click += button3_Click;
+            // 
             // Form1
             // 
             AutoScaleDimensions = new SizeF(9F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(1029, 600);
+            Controls.Add(button3);
             Controls.Add(button2);
             Controls.Add(label4);
             Controls.Add(label3);
@@ -159,5 +174,6 @@
         private PictureBox pictureBox1;
         private Button button1;
         private Button button2;
+        private Button button3;
     }
 }

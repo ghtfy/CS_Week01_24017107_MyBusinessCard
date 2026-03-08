@@ -45,6 +45,15 @@ namespace WinFormsApp3
             };
             Process.Start(psi);
         }
-    }
 
-}
+        public Form1()
+        {
+            InitializeComponent();
+
+            // PictureBox 기본 설정
+            pictureBox1.SizeMode = PictureBoxSizeMode.StretchImage;
+            pictureBox1.Image = (Image)this.Resources.GetObject("son_hm.jpg");
+
+            // 버튼 이벤트 연결 확인
+            button3.Click += button3_Click;
+        }
