@@ -10,7 +10,7 @@
 1.이벤트생성 ▶디자인창에서"배경색랜덤변경" 버튼을 더블클릭하여 코드 작성창으로 이동합니다.
 2.로직작성 : 아래코드를 참조하여 버튼을 누를때마다 배경색이 무작위로 변하게 코딩합니다.
 
-![random-card](./images/random-card.gif)
+![Image](https://github.com/user-attachments/assets/4d20f02c-6c48-48f7-840c-533b5d2c6c21)
 
 ---
 
