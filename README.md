@@ -36,7 +36,7 @@
 `GitHub` 버튼을 클릭하면 GitHub 프로필로 이동합니다.
 
 <p align="center">
-![Image](https://github.com/user-attachments/assets/402bdcf4-6fd2-4ef2-b787-66cdde5c5db3)
+<img src="https://github.com/user-attachments/assets/402bdcf4-6fd2-4ef2-b787-66cdde5c5db3" width="600">
 </p>
 
 ---
@@ -46,7 +46,7 @@
 `사진변경` 버튼을 클릭하면 프로필 이미지가 변경됩니다.
 
 <p align="center">
-<img src="https://github.com/user-attachments/assets/8e171ec1-7b25-4349-bb74-ab0a7375120a" width="600">
+<img src="https://github.com/user-attachments/assets/f9d4c2f2-c7d2-456d-aaa7-25ba71495d5b" width="600">
 </p>
 
 ---
