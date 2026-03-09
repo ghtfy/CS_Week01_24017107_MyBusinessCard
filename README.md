@@ -36,7 +36,7 @@
 `GitHub` 버튼을 클릭하면 GitHub 프로필로 이동합니다.
 
 <p align="center">
-<img src="https://github.com/user-attachments/assets/74e86ce2-12ad-435f-8db9-3733626f38ab" width="600">
+![Image](https://github.com/user-attachments/assets/402bdcf4-6fd2-4ef2-b787-66cdde5c5db3)
 </p>
 
 ---
