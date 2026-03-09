@@ -23,7 +23,7 @@
 2.로직작성 : 아래코드를 참조하여 버튼을 누를때마다 배경색이 무작위로 변하게 코딩합니다.
 
 <p align="center">
-<img src="https://github.com/user-attachments/assets/4d20f02c-6c48-48f7-840c-533b5d2c6c21" width="600">
+![Image](https://github.com/user-attachments/assets/d7eeb893-8ab3-44d2-b696-44dd4e1d9310)
 </p>
 
 ---
