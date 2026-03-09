@@ -5,7 +5,7 @@
 본인을 소개하는 디지털명함을 GUI 환경에서 직접 디자인하고 구현해봅니다.
 
 <img src="https://img.shields.io/badge/Project-Digital%20NameCard-blue?style=flat-square">
-<img src="https://img.shields.io/badge/Language-C#-orange?style=flat-square">
+<img src="https://img.shields.io/badge/Language-C%23-orange?style=flat-square">
 <img src="https://img.shields.io/badge/UI-GUI-green?style=flat-square">
 
 </div>
