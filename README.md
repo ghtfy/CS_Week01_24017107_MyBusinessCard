@@ -8,6 +8,8 @@
 <img src="https://img.shields.io/badge/Language-C%23-orange?style=flat-square">
 <img src="https://img.shields.io/badge/UI-GUI-green?style=flat-square">
 <img src="https://img.shields.io/badge/IDE-Visual%20Studio-5C2D91?style=flat-square&logo=visualstudio&logoColor=white">
+<img src="https://img.shields.io/badge/VCS-Git-F05032?style=flat-square&logo=git&logoColor=white">
+<img src="https://img.shields.io/badge/Repo-GitHub-181717?style=flat-square&logo=github&logoColor=white">
 
 </div>
 
